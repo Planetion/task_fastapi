@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get('/')
 async def name():
-    return {"Меньшаков Борис Юрьевич 2"}
+    return {"Меньшаков Борис Юрьевич"}
 
 @app.get('/tools')
 async def skills():
